@@ -3,7 +3,11 @@ module.exports = {
         "stylelint-config-standard"
     ],
     "rules": {
-        "indentation": ["tab"],
+        "indentation": null,
+        "no-missing-end-of-source-newline": null,
+        "rule-empty-line-before": null,
+        "no-eol-whitespace": null,
+        "media-feature-name-no-unknown": null,
         "string-quotes": "double",
         "no-invalid-double-slash-comments": true,
         "declaration-empty-line-before": [ "always", {
