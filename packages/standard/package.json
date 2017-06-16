@@ -1,0 +1,34 @@
+{
+  "name": "@alloyteam/stylelint-config-standard",
+  "version": "0.0.1",
+  "description": "alloyteam stylelint standard code guide",
+  "main": "./stylelintrc.js",
+  "scripts": {
+    "test": "stylelint --config stylelintrc.js ./test/src/*.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steamerjs/style-lint.git"
+  },
+  "keywords": [
+    "alloyteam",
+    "stylelint",
+    "code",
+    "guide"
+  ],
+  "author": "heyli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steamerjs/style-lint/issues"
+  },
+  "homepage": "https://github.com/steamerjs/style-lint#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^7.11.1"
+  }
+}
